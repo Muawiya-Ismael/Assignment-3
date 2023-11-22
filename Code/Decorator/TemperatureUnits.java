@@ -1,4 +1,4 @@
-package Code.Decorator.Children;
+package Code.Decorator;
 
 public enum TemperatureUnits {
     CELSIUS,

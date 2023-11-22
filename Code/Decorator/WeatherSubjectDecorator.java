@@ -1,4 +1,4 @@
-package Code.Decorator.Children;
+package Code.Decorator;
 
 import Code.Weather;
 import Code.Observer.WeatherObserver;

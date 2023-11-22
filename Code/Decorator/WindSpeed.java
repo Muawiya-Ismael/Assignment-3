@@ -1,5 +1,6 @@
-package Code.Decorator.Children;
+package Code.Decorator;
 
+import Code.Decorator.WeatherSubjectDecorator;
 import Code.Observer.WeatherObserver;
 import Code.Observer.WeatherSubject;
 

@@ -1,9 +1,9 @@
 package Code;
 
 import Code.Decorator.Precipitation;
-import Code.Decorator.Children.TemperatureUnit;
-import Code.Decorator.Children.TemperatureUnits;
-import Code.Decorator.Children.WindSpeed;
+import Code.Decorator.TemperatureUnit;
+import Code.Decorator.TemperatureUnits;
+import Code.Decorator.WindSpeed;
 import Code.Observer.Displayble.CurrentConditionsDisplay;
 import Code.Observer.Displayble.StatisticsDisplay;
 import Code.Observer.WeatherSubject;
