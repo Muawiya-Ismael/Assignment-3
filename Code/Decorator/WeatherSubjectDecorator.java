@@ -4,7 +4,7 @@ import Code.Weather;
 import Code.Observer.WeatherObserver;
 import Code.Observer.WeatherSubject;
 
-public class WeatherSubjectDecorator implements Weather {
+public abstract class WeatherSubjectDecorator implements Weather, WeatherObserver {
     WeatherSubject weatherSubject;
 
     public WeatherSubjectDecorator(WeatherSubject weatherSubject){
@@ -26,5 +26,8 @@ public class WeatherSubjectDecorator implements Weather {
         weatherSubject.notifyObservers();
     }
 
+    @Override
+    public void update() {
 
+    }
 }

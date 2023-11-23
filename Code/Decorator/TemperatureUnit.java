@@ -3,7 +3,7 @@ package Code.Decorator;
 import Code.Observer.WeatherObserver;
 import Code.Observer.WeatherSubject;
 
-public class TemperatureUnit extends WeatherSubjectDecorator implements WeatherObserver {
+public class TemperatureUnit extends WeatherSubjectDecorator {
     private float newTemperature;
     private String unit;
     public TemperatureUnit(WeatherSubject weatherSubject) {

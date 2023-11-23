@@ -4,7 +4,7 @@ import Code.Decorator.WeatherSubjectDecorator;
 import Code.Observer.WeatherObserver;
 import Code.Observer.WeatherSubject;
 
-public class WindSpeed extends WeatherSubjectDecorator implements WeatherObserver {
+public class WindSpeed extends WeatherSubjectDecorator  {
     private float windSpeed;
 
     public WindSpeed(WeatherSubject weatherSubject) {

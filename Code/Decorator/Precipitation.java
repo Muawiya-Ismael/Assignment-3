@@ -4,7 +4,7 @@ import Code.Decorator.WeatherSubjectDecorator;
 import Code.Observer.WeatherObserver;
 import Code.Observer.WeatherSubject;
 
-public class Precipitation extends WeatherSubjectDecorator implements WeatherObserver {
+public class Precipitation extends WeatherSubjectDecorator{
     private String precipitation;
     public Precipitation(WeatherSubject weatherSubject) {
         super(weatherSubject);
